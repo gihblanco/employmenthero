@@ -24,7 +24,7 @@ main {
 }
 
 #logo{
-    width: 10%;
+    width: 15%;
 }
 
 #logo img{
@@ -76,16 +76,17 @@ main {
 
 #home h1 {
     align-self: flex-end;
-    width: 100%;
-    font-size: 2em;
+    width: 35vw;
+    font-size: 2.5em;
     text-align: left;
-    line-height: 2em;
+    line-height: 1.1em;
+    font-weight: normal;
 }
 
 #home p {
     text-align: left;
     align-self: flex-end;
-    width: 100%;
+    width: 35vw;
     margin-bottom: 2%;
 }
 
@@ -96,24 +97,27 @@ main {
 #especialista{
     background-color: #7622D7;
     color: #fff;
+    width: 20vw;
     border: none;
     border-radius: 50px;
     font-size: 1em;
     font-family: "Abel";
+    padding: 2vh;
 }
 
 #curriculo {
     background-color: #CAFAD9;
     color: #000;
+    width: 15vw;
     border-radius: 50px;
     font-size: 1em;
     font-family: "Abel";
+    padding: 2vh;
 }
 
 #avaliacoes {
     margin: 0 auto;
     width: 100%;
-    padding: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -128,10 +132,16 @@ main {
     align-items: center;
 }
 
-/* #avaliacoes article{
-    width: 10%;
-} */
-
 #imagens-avaliacoes img{
     width: 10vw;
+}
+
+#botoes-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botoes-home button{
+    margin: 0.5em;
 }
